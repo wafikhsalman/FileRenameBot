@@ -108,7 +108,10 @@ async def start_me(bot, update):
                 [
                     InlineKeyboardButton('Other Bots', url='https://t.me/Mai_bOTs/17'),
                     InlineKeyboardButton('Source', url='https://github.com/No-OnE-Kn0wS-Me/FileRenameBot')
+                ],
+                [   InlineKeyboardButton('Source', url='https://github.com/No-OnE-Kn0wS-Me/FileRenameBot')
                 ]
+                
             ]
         ),
         reply_to_message_id=update.message_id
